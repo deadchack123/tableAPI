@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "netlify-lambda build express",
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -11,7 +10,6 @@
     "cors": "^2.8.5",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "morgan": "~1.9.1",
-    "netlify-lambda": "^2.0.1"
+    "morgan": "~1.9.1"
   }
 }
